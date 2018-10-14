@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email = "duynb92@gmail.com"
 
   spec.summary = "This action will update xcodeproj with values extracted from your provisioning profile."
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-update_provisioning_profile"
+  spec.homepage = "https://github.com/duynb92/fastlane-plugin-update_provisioning_profile"
   spec.license = "MIT"
 
   spec.files = Dir["lib/**/*"] + %w(README.md LICENSE)
