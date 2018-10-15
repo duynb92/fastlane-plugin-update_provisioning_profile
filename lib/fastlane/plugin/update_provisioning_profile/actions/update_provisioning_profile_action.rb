@@ -56,6 +56,9 @@ module Fastlane
         end
         project.save
 
+        #Remove temp files
+        sh("rm -rf #{profile_plist_file} #{certificate_file}")
+
         UI.message("Finish update xcodeproj with extracted values from provisioning profile!")
       end
 
